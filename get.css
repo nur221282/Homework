@@ -1,0 +1,49 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 234, 239);
+    width: 200px;
+    padding: 50px;
+}
+
+.h2{
+text-align: center;
+margin: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.label{
+font-weight:bold;
+margin-bottom: 5px;
+}
+
+#name,
+#surname,
+#email,
+#phone,
+#address,
+#type_your_text
+
+textarea{
+padding: 10px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+
+submit{
+    padding: 10px;
+    background-color: aqua;
+    color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+submit:hover{
+    background-color: deepskyblue;
+}
